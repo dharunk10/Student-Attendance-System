@@ -65,7 +65,7 @@ const StudentCard = () => {
                     </div>
                 </div>
             </div>
-            {!load ? <div className="main"><p>loading</p></div> : <StudentDetails depname={selectedDepartment} />}
+            {!load ? <div className="main"><img src="nodata.jpg" alt="profile" className="nodata"/></div> : <StudentDetails depname={selectedDepartment} />}
         </div>
     );
 }
